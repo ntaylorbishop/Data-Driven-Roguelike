@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemBlueprints>
+  <ItemBlueprint name="Long Sword" type="Weapon" damage="3~8" />
+  <ItemBlueprint name="Dagger" type="Weapon" damage="4~7" />
+  <ItemBlueprint name="Axe" type="Weapon" damage="3~7" />
+  <ItemBlueprint name="Short Sword" type="Weapon" damage="5~9" />
+  <ItemBlueprint name="Flail" type="Weapon" damage="5~10" />
+</ItemBlueprints>

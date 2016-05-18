@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnvironmentBlueprint name ="FromData" size="79, 17">
+  <GenerationProcessData generator="FromData" file="Data/Maps/Test.Map.xml" />
+</EnvironmentBlueprint>

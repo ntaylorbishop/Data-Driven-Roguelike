@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCBlueprints>
+  <NPCBlueprint name="Hobgoblin" faction="goblin" maxHealth="10" glyph="H" color="0,0,255,255">
+    <Behaviors>
+      <MeleeAttack damage="1~6" />
+      <Wander />
+      <Chase />
+      <Yell />
+    </Behaviors>
+    <Inventory>
+      <Item name="Small Potion" />
+      <Item name="Small Potion" />
+    </Inventory>
+    <Equipment>
+      <Item name="Short Sword" />
+    </Equipment>
+    <MovementProperties>
+      <BlockedByWalls />
+      <BlockedByAgents />
+    </MovementProperties>
+  </NPCBlueprint>
+  
+  <NPCBlueprint name="Goblin Villager" faction="goblin" maxHealth="8" glyph="V" color="0,0,255,255">
+    <Behaviors>
+      <MeleeAttack damage="1~6" />
+      <Wander />
+      <Chase />
+      <Yell />
+    </Behaviors>
+    <MovementProperties>
+      <BlockedByLava />
+      <SlowedByLava />
+      <BlockedByWalls />
+      <BlockedByAgents />
+    </MovementProperties>
+  </NPCBlueprint>
+  
+  <NPCBlueprint name="Goblin Drake Rider" faction="goblin" maxHealth="10" glyph="R" color="0,0,255,255">
+    <Behaviors>
+      <MeleeAttack damage="1~6" />
+      <Wander />
+      <Chase />
+      <Yell />
+    </Behaviors>
+  </NPCBlueprint>
+</NPCBlueprints>

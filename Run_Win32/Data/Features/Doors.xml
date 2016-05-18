@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FeatureBlueprints>
+  <FeatureBlueprint name="Wooden Door" 
+                    type="Door" stateGlyphs="+,-" 
+                    doesBlockLineOfSight="1,0" 
+                    doesBlockPathing="1,0" 
+                    colorActivated="139, 69,19,255"
+                    colorDeactivated="117, 70, 37,255" />
+  <FeatureBlueprint name="Glass Door"
+                    type="Door" stateGlyphs="+,-"
+                    doesBlockLineOfSight="0,0"
+                    doesBlockPathing="1,0"
+                    colorActivated="255, 255, 255,255"
+                    colorDeactivated="100, 100, 100,255" />
+  <FeatureBlueprint name="Cloth Tapestry"
+                  type="Door" stateGlyphs="~,/"
+                  doesBlockLineOfSight="1,0"
+                  doesBlockPathing="0,0"
+                  colorActivated="255, 255, 255,255"
+                  colorDeactivated="100, 100, 100,255" />
+</FeatureBlueprints>

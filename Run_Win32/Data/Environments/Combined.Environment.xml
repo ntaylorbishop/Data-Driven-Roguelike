@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnvironmentBlueprint name ="DungeonLake" size="60,45">
+  <GenerationProcessData generator="Dungeon" steps="10" />
+  <GenerationProcessData generator="Lake" steps="10" type="water" />
+  <GenerationProcessData generator="Lake" steps="4" type="lava" />
+</EnvironmentBlueprint>

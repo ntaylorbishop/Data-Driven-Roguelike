@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+  <Faction name="Goblin" hates="Player" />
+  <Faction name="Kobold" hates="Player,Plant" />
+  <Faction name="Plant" hates="Goblin,Kobold,Player" />
+  <Faction name="Player" />
+</Factions>

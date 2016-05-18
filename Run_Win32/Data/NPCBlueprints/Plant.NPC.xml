@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCBlueprints>
+  <NPCBlueprint name="Creeping Death" faction="plant" maxHealth="10" glyph="D" color="0,255,0,255" moveSpeed="0.8">
+    <Behaviors>
+      <Flee />
+      <MeleeAttack damage="1~6" />
+      <Wander />
+      <Chase />
+    </Behaviors>
+    <MovementProperties>
+      <BlockedByLava />
+      <SlowedByLava />
+      <BlockedByWater />
+      <SlowedByWater />
+      <BlockedByWalls />
+      <BlockedByAgents />
+    </MovementProperties>
+  </NPCBlueprint>
+
+  <NPCBlueprint name="Creeping Horror" faction="plant" maxHealth="8" glyph="C" color="0,255,0,255">
+    <Faction name="Plant" loves="Player"/>
+    <Behaviors>
+      <Flee />
+      <MeleeAttack damage="1~6" />
+      <Wander />
+      <Chase />
+    </Behaviors>
+    <MovementProperties>
+      <BlockedByLava />
+      <SlowedByLava />
+      <BlockedByWater />
+      <SlowedByWater />
+      <BlockedByWalls />
+      <BlockedByAgents />
+    </MovementProperties>
+  </NPCBlueprint>
+</NPCBlueprints>

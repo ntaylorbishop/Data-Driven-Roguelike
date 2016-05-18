@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemBlueprints>
+  <ItemBlueprint name="Leather Chest Piece" type="Armor" amount="1" />
+  <ItemBlueprint name="Chainmail Helmet" type="Armor" amount="1" />
+  <ItemBlueprint name="Chainmail Chest Piece" type="Armor" amount="1" />
+  <ItemBlueprint name="Leather Pants" type="Armor" amount="2" />
+  <ItemBlueprint name="Orcish Hide" type="Armor" amount="2" />
+</ItemBlueprints>

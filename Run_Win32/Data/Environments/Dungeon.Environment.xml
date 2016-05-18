@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnvironmentBlueprint name ="Dungeon" size="80,45">
+  <GenerationProcessData generator="Dungeon" steps="15" />
+</EnvironmentBlueprint>

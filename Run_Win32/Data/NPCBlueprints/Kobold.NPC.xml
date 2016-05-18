@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCBlueprints>
+  <NPCBlueprint name="Kobold Scavenger" faction="kobold" maxHealth="10" glyph="K" color="100,100,100,255">
+    <Behaviors>
+      <Flee />
+      <MeleeAttack damage="1~6" />
+      <Wander />
+      <Chase />
+    </Behaviors>
+    <MovementProperties>
+      <BlockedByLava />
+      <SlowedByLava />
+      <BlockedByWater />
+      <SlowedByWater />
+      <BlockedByWalls />
+      <BlockedByAgents />
+    </MovementProperties>
+  </NPCBlueprint>
+</NPCBlueprints>

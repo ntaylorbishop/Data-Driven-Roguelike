@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SaveGame>
+	<MapData size="60,45">
+		<Legend>
+			<Tile type="air" char="0"/>
+			<Tile type="stone" char="#"/>
+			<Tile type="grass" char="."/>
+			<Tile type="water" char="$"/>
+			<Tile type="lava" char="x"/>
+		</Legend>
+		<TileData>
+#00000000000000####################################0000000##
+#00000000000000#..................................#00000000#
+############000#..................................##########
+#..........#000#..........#####...........................##
+#..........#000#..........#000#..........######...#######.##
+#..........#000######.#####000#..........#0000#...#00000#.##
+#..........#00000000#.#0000000#..........#0000#...#00000#.##
+#..........#00000000#.#0000000#..........#0000#...#00000#.##
+#..........##########.#0000000#..........#0000#...#00000#.##
+#####.#######.........#0000000############0000#...#00000#.##
+#000#.#######.........#00000000000000000000000#...#00000#.##
+#000#.#...............#00000000000000000000####...###000#.##
+#000#.#.#####.........#00000000000000000000#........#000#.##
+#000#.#.#000#.........#00000000000000000000#........#000#.##
+#####.#.##00#.........#00000000000000000000#........#000#.##
+#........#00#####.###.######################........#000#.##
+#........#000000#...................................#000#.##
+#........#000000#.###.######################........#000#.##
+#........########.###.#00000000000000000000#........#000#$##
+#.....................#00000000000000000000#........#####x##
+#........########.#####00000000000000000000#.........$$xxxx#
+#........#000000#.#000000000000000000000000#........$$xxxxx#
+#........#000000#.#000000000000000000000000########$$xxxxxx#
+#........#000####.#################################$xxxxxxx#
+#........#000#....................................$xxxxxxxx#
+#######.###00#.##.#################################xxxxxxxx#
+#00#......#00#.##.#0000000000000000000000000000000#xxxxxxxx#
+#00#......#00#.##$#0000000000000000000000000000000#xxxxxxxx#
+#00#......#00#.##x#0000000000000000000000000000000#xxxxxxxx#
+#00#......#00#$##x#0000000000000000000000000000000#xxxxxxxx#
+#00#......#00#x##x#0000000000000000000000000000000#######x##
+#00#......#00#x##x#0000000000000000000000000000000000000#x##
+#00#.....$#00#x##x#0000000000000000000000000000000000000#x##
+#00#...$$$#00#x##x#000000000000000000000000000000000#####x##
+#00#.$$$xx#00#x##x#000############000000000000000000#xxxxxx#
+#00#$$$xxx####x##x##00#xx$.......#000000000000000000#xxxxxx#
+#00######xxxxxxxxxx####x$$.......####################xxxxxx#
+#0000000#xxxxxxxxxxxxxxx$............................$xxxxx#
+#0000000#xxxxxxxxxx####x$.............................$$xxx#
+#0000000#xxxxxxxxxx#00#$................................$$x#
+#0000000#xxxxxxxxxx#00#$.........####################....$$#
+#0000000#xxxxxxxxxx#00#..........#000000000000000000#......#
+#0000000############00#..........#000000000000000000########
+#000000000000000###########################0000000000000000#
+##00000000000000##################################000000000#
+</TileData>
+		<VisibilityData>
+####################....##.........................#########
+####################...............................#########
+####################...#...................................#
+####################...#######.............................#
+####################...#######.............................#
+####################...#######################.....#########
+####################...#######################.....#########
+####################...#######################.....#########
+############....***....#######################.....#########
+############....***....#######################.....#########
+######..........***....#######################.....#########
+######..........***....####################..........#######
+######..........***....####################..........#######
+############....***....####################..........#######
+############....***....####################..........#######
+############....***..................................#######
+################***..................................#######
+################***..................................#######
+***********************####################..........#######
+***********************####################.................
+***********************####################.................
+################***########################.................
+################***########################.................
+################***###############################..........
+################***###############################..........
+################***###############################..........
+################***###############################..........
+################***###############################..........
+################***###############################..........
+################***###############################..........
+################***###############################..........
+################***######################################..#
+################***#######################################.#
+#################*##########################################
+#################*##########################################
+#################*##########################################
+#################*##########################################
+#################*##########################################
+#################*##########################################
+#################*##########################################
+#################*##########################################
+#################*##########################################
+#################*##########################################
+############################################################
+############################################################
+</VisibilityData>
+	</MapData>
+	<EntityData>
+		<PlayerData health="75" maxHealth="100" damage="5,9" armor="1" position="17,25" savedID="0">
+			<Inventory position="-1,-1">
+				<Item name="Large Potion"/>
+				<Item name="Short Sword"/>
+				<Item name="Flail"/>
+				<Item name="Leather Chest Piece"/>
+			</Inventory>
+			<Equipment>
+				<Weapon name="Short Sword"/>
+				<Armor name="Chainmail Chest Piece"/>
+			</Equipment>
+		</PlayerData>
+		<NPCBlueprint 	name="Goblin Drake Rider"
+							faction="goblin"
+							health="10"
+							maxHealth="10"
+							glyph="R"
+							color="0.000000,0.000000,1.000000,1.000000"
+							bgColor="1.000000,1.000000,1.000000,1.000000"
+							savedID="45"
+							position="59,30"
+							armor="0"
+							moveSpeed="1.000000">
+			<Behaviors>
+				<MeleeAttack damage="1~6"/>
+				<Wander/>
+				<Chase/>
+				<Yell/>
+			</Behaviors>
+			<AgentRelationships/>
+			<Inventory position="-1,-1"/>
+			<Equipment/>
+			<MovementProperties/>
+		</NPCBlueprint>
+		<NPCBlueprint 	name="Goblin Villager"
+							faction="goblin"
+							health="8"
+							maxHealth="8"
+							glyph="V"
+							color="0.000000,0.000000,1.000000,1.000000"
+							bgColor="1.000000,1.000000,1.000000,1.000000"
+							savedID="51"
+							position="57,29"
+							armor="0"
+							moveSpeed="1.000000">
+			<Behaviors>
+				<MeleeAttack damage="1~6"/>
+				<Wander/>
+				<Chase/>
+				<Yell/>
+			</Behaviors>
+			<AgentRelationships/>
+			<Inventory position="-1,-1"/>
+			<Equipment/>
+			<MovementProperties>
+				<BlockedByLava/>
+				<SlowedByLava/>
+				<BlockedByAgents/>
+				<BlockedByWalls/>
+			</MovementProperties>
+		</NPCBlueprint>
+		<NPCBlueprint 	name="Hobgoblin"
+							faction="goblin"
+							health="10"
+							maxHealth="10"
+							glyph="H"
+							color="0.000000,0.000000,1.000000,1.000000"
+							bgColor="1.000000,1.000000,1.000000,1.000000"
+							savedID="61"
+							position="44,5"
+							armor="0"
+							moveSpeed="1.000000">
+			<Behaviors>
+				<MeleeAttack damage="1~6"/>
+				<Wander/>
+				<Chase/>
+				<Yell/>
+			</Behaviors>
+			<AgentRelationships/>
+			<Inventory position="-1,-1">
+				<Item name="Small Potion"/>
+				<Item name="Small Potion"/>
+			</Inventory>
+			<Equipment/>
+			<MovementProperties>
+				<BlockedByAgents/>
+				<BlockedByWalls/>
+			</MovementProperties>
+		</NPCBlueprint>
+		<NPCBlueprint 	name="Goblin Villager"
+							faction="goblin"
+							health="8"
+							maxHealth="8"
+							glyph="V"
+							color="0.000000,0.000000,1.000000,1.000000"
+							bgColor="1.000000,1.000000,1.000000,1.000000"
+							savedID="65"
+							position="26,6"
+							armor="0"
+							moveSpeed="1.000000">
+			<Behaviors>
+				<MeleeAttack damage="1~6"/>
+				<Wander/>
+				<Chase/>
+				<Yell/>
+			</Behaviors>
+			<AgentRelationships/>
+			<Inventory position="-1,-1"/>
+			<Equipment/>
+			<MovementProperties>
+				<BlockedByLava/>
+				<SlowedByLava/>
+				<BlockedByAgents/>
+				<BlockedByWalls/>
+			</MovementProperties>
+		</NPCBlueprint>
+		<NPCBlueprint 	name="Goblin Villager"
+							faction="goblin"
+							health="8"
+							maxHealth="8"
+							glyph="V"
+							color="0.000000,0.000000,1.000000,1.000000"
+							bgColor="1.000000,1.000000,1.000000,1.000000"
+							savedID="81"
+							position="57,39"
+							armor="0"
+							moveSpeed="1.000000">
+			<Behaviors>
+				<MeleeAttack damage="1~6"/>
+				<Wander/>
+				<Chase/>
+				<Yell/>
+			</Behaviors>
+			<AgentRelationships/>
+			<Inventory position="-1,-1"/>
+			<Equipment/>
+			<MovementProperties>
+				<BlockedByLava/>
+				<SlowedByLava/>
+				<BlockedByAgents/>
+				<BlockedByWalls/>
+			</MovementProperties>
+		</NPCBlueprint>
+		<NPCBlueprint 	name="Goblin Drake Rider"
+							faction="goblin"
+							health="2"
+							maxHealth="10"
+							glyph="R"
+							color="0.000000,0.000000,1.000000,1.000000"
+							bgColor="1.000000,1.000000,1.000000,1.000000"
+							savedID="83"
+							position="8,14"
+							armor="0"
+							moveSpeed="1.000000">
+			<Behaviors>
+				<MeleeAttack damage="1~6"/>
+				<Wander/>
+				<Chase/>
+				<Yell/>
+			</Behaviors>
+			<AgentRelationships>
+				<Agent savedID="47" relationship="4"/>
+			</AgentRelationships>
+			<Inventory position="-1,-1"/>
+			<Equipment/>
+			<MovementProperties/>
+		</NPCBlueprint>
+		<NPCBlueprint 	name="Kobold Scavenger"
+							faction="kobold"
+							health="1"
+							maxHealth="10"
+							glyph="K"
+							color="0.392157,0.392157,0.392157,1.000000"
+							bgColor="1.000000,1.000000,1.000000,1.000000"
+							savedID="85"
+							position="42,20"
+							armor="0"
+							moveSpeed="1.000000">
+			<Behaviors>
+				<Flee/>
+				<MeleeAttack damage="1~6"/>
+				<Wander/>
+				<Chase/>
+			</Behaviors>
+			<AgentRelationships>
+				<Agent savedID="53" relationship="4"/>
+			</AgentRelationships>
+			<Inventory position="-1,-1"/>
+			<Equipment/>
+			<MovementProperties>
+				<BlockedByLava/>
+				<SlowedByLava/>
+				<BlockedByWater/>
+				<SlowedByWater/>
+				<BlockedByAgents/>
+				<BlockedByWalls/>
+			</MovementProperties>
+		</NPCBlueprint>
+		<NPCBlueprint 	name="Hobgoblin"
+							faction="goblin"
+							health="10"
+							maxHealth="10"
+							glyph="H"
+							color="0.000000,0.000000,1.000000,1.000000"
+							bgColor="1.000000,1.000000,1.000000,1.000000"
+							savedID="93"
+							position="9,38"
+							armor="0"
+							moveSpeed="1.000000">
+			<Behaviors>
+				<MeleeAttack damage="1~6"/>
+				<Wander/>
+				<Chase/>
+				<Yell/>
+			</Behaviors>
+			<AgentRelationships/>
+			<Inventory position="-1,-1">
+				<Item name="Small Potion"/>
+				<Item name="Small Potion"/>
+			</Inventory>
+			<Equipment/>
+			<MovementProperties>
+				<BlockedByAgents/>
+				<BlockedByWalls/>
+			</MovementProperties>
+		</NPCBlueprint>
+		<FeatureBlueprint 	name="Cloth Tapestry"
+								position="6,31"
+								glyphActivated="~"
+								glyphDeactivated="/"
+								colorActivated="1.000000,1.000000,1.000000,1.000000"
+								colorDeactivated="0.392157,0.392157,0.392157,1.000000"
+								featureType="0"
+								featureState="0"
+								activeBlocksLOS="1"
+								deactiveBlocksLOS="0"
+								activeBlocksPathing="0"
+								deactiveBlocksPathing="0"/>
+		<FeatureBlueprint 	name="Glass Door"
+								position="19,29"
+								glyphActivated="+"
+								glyphDeactivated="-"
+								colorActivated="1.000000,1.000000,1.000000,1.000000"
+								colorDeactivated="0.392157,0.392157,0.392157,1.000000"
+								featureType="0"
+								featureState="0"
+								activeBlocksLOS="0"
+								deactiveBlocksLOS="0"
+								activeBlocksPathing="1"
+								deactiveBlocksPathing="0"/>
+		<FeatureBlueprint 	name="Glass Door"
+								position="19,29"
+								glyphActivated="+"
+								glyphDeactivated="-"
+								colorActivated="1.000000,1.000000,1.000000,1.000000"
+								colorDeactivated="0.392157,0.392157,0.392157,1.000000"
+								featureType="0"
+								featureState="0"
+								activeBlocksLOS="0"
+								deactiveBlocksLOS="0"
+								activeBlocksPathing="1"
+								deactiveBlocksPathing="0"/>
+		<Inventory position="1,36">
+			<Item name="Long Sword"/>
+		</Inventory>
+		<Inventory position="3,40">
+			<Item name="Leather Pants"/>
+		</Inventory>
+		<Inventory position="6,20">
+			<Item name="Leather Chest Piece"/>
+		</Inventory>
+		<Inventory position="7,24">
+			<Item name="Leather Chest Piece"/>
+		</Inventory>
+		<Inventory position="7,26">
+			<Item name="Chainmail Helmet"/>
+		</Inventory>
+		<Inventory position="7,39">
+			<Item name="Long Sword"/>
+		</Inventory>
+		<Inventory position="14,16">
+			<Item name="Leather Pants"/>
+		</Inventory>
+		<Inventory position="17,26">
+			<Item name="Chainmail Helmet"/>
+		</Inventory>
+		<Inventory position="23,42">
+			<Item name="Leather Chest Piece"/>
+		</Inventory>
+		<Inventory position="31,7">
+			<Item name="Small Potion"/>
+		</Inventory>
+		<Inventory position="32,6">
+			<Item name="Leather Pants"/>
+		</Inventory>
+		<Inventory position="37,6">
+			<Item name="Chainmail Chest Piece"/>
+		</Inventory>
+		<Inventory position="40,37">
+			<Item name="Short Sword"/>
+		</Inventory>
+		<Inventory position="43,6">
+			<Item name="Short Sword"/>
+		</Inventory>
+	</EntityData>
+	<TurnInfo NumTurns="181" MonstersKilled="12"/>
+	<MessageLog>
+		<Message text="Attacked Kobold Scavenger for 2 damage!" turnNumber="0"/>
+		<Message text="Kobold Scavenger attacked you for 0 damage!" turnNumber="1"/>
+		<Message text="Attacked Kobold Scavenger for 3 damage!" turnNumber="1"/>
+		<Message text="Goblin Drake Rider attacked you for 1 damage!" turnNumber="2"/>
+		<Message text="Attacked Kobold Scavenger for 5 damage!" turnNumber="2"/>
+		<Message text="Goblin Drake Rider attacked you for 1 damage!" turnNumber="3"/>
+		<Message text="A Kobold Scavenger off in the distance has died!" turnNumber="3"/>
+		<Message text="A Creeping Death off in the distance has died!" turnNumber="19"/>
+		<Message text="Goblin Drake Rider attacked you for 3 damage!" turnNumber="21"/>
+		<Message text="A Creeping Horror off in the distance has died!" turnNumber="22"/>
+		<Message text="You find a Flail here." turnNumber="22"/>
+		<Message text="A Creeping Horror off in the distance has died!" turnNumber="36"/>
+		<Message text="You find a Short Sword here." turnNumber="40"/>
+		<Message text="Equipped a Short Sword." turnNumber="41"/>
+		<Message text="You find a Chainmail Chest Piece here." turnNumber="44"/>
+		<Message text="Goblin Drake Rider attacked you for 6 damage!" turnNumber="45"/>
+		<Message text="Equipped a Chainmail Chest Piece." turnNumber="45"/>
+		<Message text="You find a Large Potion here." turnNumber="45"/>
+		<Message text="Picked up a Large Potion." turnNumber="46"/>
+		<Message text="You find a Short Sword here." turnNumber="46"/>
+		<Message text="A Creeping Horror off in the distance has died!" turnNumber="47"/>
+		<Message text="Picked up a Short Sword." turnNumber="47"/>
+		<Message text="Goblin Drake Rider attacked you for 0 damage!" turnNumber="48"/>
+		<Message text="Attacked Goblin Drake Rider for 5 damage!" turnNumber="48"/>
+		<Message text="Goblin Drake Rider yells: &quot;Oi! Human! I have something for you!&quot;" turnNumber="49"/>
+		<Message text="Attacked Goblin Drake Rider for 9 damage!" turnNumber="49"/>
+		<Message text="Goblin Drake Rider has died!" turnNumber="50"/>
+		<Message text="Goblin Drake Rider attacked you for 1 damage!" turnNumber="51"/>
+		<Message text="Attacked Goblin Drake Rider for 9 damage!" turnNumber="51"/>
+		<Message text="Goblin Drake Rider yells: &quot;Is that human flesh I smell...&quot;" turnNumber="52"/>
+		<Message text="Attacked Goblin Drake Rider for 5 damage!" turnNumber="52"/>
+		<Message text="A Goblin Drake Rider off in the distance has died!" turnNumber="53"/>
+		<Message text="A Hobgoblin off in the distance has died!" turnNumber="88"/>
+		<Message text="Attacked Kobold Scavenger for 6 damage!" turnNumber="99"/>
+		<Message text="Kobold Scavenger has died!" turnNumber="100"/>
+		<Message text="You find a Flail here." turnNumber="130"/>
+		<Message text="You find a Flail here." turnNumber="131"/>
+		<Message text="You find a Flail here." turnNumber="135"/>
+		<Message text="You find a Flail here." turnNumber="137"/>
+		<Message text="Picked up a Flail." turnNumber="138"/>
+		<Message text="You find a Leather Chest Piece here." turnNumber="149"/>
+		<Message text="Picked up a Leather Chest Piece." turnNumber="150"/>
+		<Message text="Creeping Death attacked you for 4 damage!" turnNumber="167"/>
+		<Message text="Creeping Death attacked you for 3 damage!" turnNumber="167"/>
+		<Message text="Attacked Creeping Death for 7 damage!" turnNumber="167"/>
+		<Message text="Creeping Death attacked you for 5 damage!" turnNumber="168"/>
+		<Message text="Attacked Creeping Death for 7 damage!" turnNumber="168"/>
+		<Message text="Creeping Death has died!" turnNumber="169"/>
+		<Message text="Attacked Kobold Scavenger for 9 damage!" turnNumber="177"/>
+		<Message text="Kobold Scavenger has died!" turnNumber="178"/>
+		<Message text="You find a Chainmail Helmet here." turnNumber="179"/>
+	</MessageLog>
+</SaveGame>

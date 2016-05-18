@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemBlueprints>
+  <ItemBlueprint name="Small Potion" type="Potion" healAmount="7" />
+  <ItemBlueprint name="Large Potion" type="Potion" healAmount="14" />
+</ItemBlueprints>
