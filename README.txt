@@ -1,5 +1,8 @@
-CONTROLS:
-	At Main Menu:
+//-------------------------------------------------------------------------------------
+HOW TO USE
+//-------------------------------------------------------------------------------------
+
+	At Main Menu ("Paradise" screen):
 		ENTER - Go to Level Select
 		ESC - Exit Game
 	At Level Select:
@@ -12,11 +15,8 @@ CONTROLS:
 		ESC - Go back to Level Select
 	At Playing Game (Occurs after generation finishes)
 		ESC - Go back to Level Select
-		P - Initiate new pathfinding or single step through it
-
-	MOUSE
-		Hover over valid tile to show the pathfinding to that tile
-	
-KNOWN ISSUES:
-	
-	
+		NUM PAD - Move around
+		Y,U,H,J,K,L,B,N - Move around
+		, - When over item, pick up item
+		M - Show entire map
+		CLICK IN INVENTORY - Equip / Unequip item
