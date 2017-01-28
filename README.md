@@ -11,10 +11,10 @@ Make sure to replace the <i>Apparatus.lib</i> LFS link file in the <b>lib</b> fo
 
 ###At Main Menu ("Paradise" screen):
 
-| Keyboard      | Function            |
-| ------------- | :-----------:       |
-| ENTER         | Go to Level Select  |
-| ESC           | Exit Game           |
+| Keyboard             | Function            |
+| -------------        | :-----------:       |
+| ENTER                | Go to Level Select  |
+| ESC                  | Exit Game           |
 
 ###At Level Select:
 
