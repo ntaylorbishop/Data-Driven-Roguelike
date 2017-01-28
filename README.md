@@ -10,23 +10,54 @@ Make sure to replace the <i>Apparatus.lib</i> LFS link file in the <b>lib</b> fo
 
 
 ###At Main Menu ("Paradise" screen):
-	ENTER - Go to Level Select
-	ESC - Exit Game
+
+<br/><br/>
+
+| Keyboard      | Function            |
+| ------------- | :-----------:       |
+| ENTER         | Go to Level Select  |
+| ESC           | Exit Game           |
+
+<br/><br/>
+
 ###At Level Select:
-	Corresponding NUM - Generate that map
-	Click on map - Generate that map
-	ESC - Go to Main Menu
-	TAB - Switch between auto / non-auto generation
+
+<br/><br/>
+
+| Keyboard          | Function                                  |
+| ----------------- | :---------------------------------------: |
+| Corresponding NUM | Generate that map                         |
+| Click on map      | Generate that map                         |
+| ESC               | Go to Main Menu                           |
+| TAB               | Switch between auto / non-auto generation |
+
+<br/><br/>
+
 ###At Generating:
-	SPACEBAR - Generate next step
-	ESC - Go back to Level Select
+
+<br/><br/>
+
+| Keyboard          | Function                |
+| ----------------- | :---------------------: |
+| SPACEBAR          | Generate next step      |
+| ESC               | Go back to Level Select |
+
+<br/><br/>
+
 ###At Playing Game (Occurs after generation finishes)
-	ESC - Go back to Level Select
-	NUM PAD - Move around
-	Y,U,H,J,K,L,B,N - Move around
-	, - When over item, pick up item
-	M - Show entire map
-	CLICK IN INVENTORY - Equip / Unequip item
+
+<br/><br/>
+
+| Keyboard           | Function                     |
+| ------------------ | :--------------------------: |
+| ESC                | Open pause menu              |
+| NUM PAD            | Move around                  |
+| Y,U,H,J,K,L,B,N    | Move around                  |
+| ,                  | When over item, pick up item |
+| M                  | Show entire map              |
+| CLICK IN INVENTORY | Equip / Unequip item         |
+
+<br/><br/>
 
 #Note
 
