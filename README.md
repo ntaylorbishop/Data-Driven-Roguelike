@@ -1,7 +1,5 @@
 #How To Use
 
-##KEYBOARD / MOUSE
-
 
 ###At Main Menu ("Paradise" screen):
 	ENTER - Go to Level Select
