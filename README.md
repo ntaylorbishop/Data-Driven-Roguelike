@@ -11,18 +11,12 @@ Make sure to replace the <i>Apparatus.lib</i> LFS link file in the <b>lib</b> fo
 
 ###At Main Menu ("Paradise" screen):
 
-<br/><br/>
-
 | Keyboard      | Function            |
 | ------------- | :-----------:       |
 | ENTER         | Go to Level Select  |
 | ESC           | Exit Game           |
 
-<br/><br/>
-
 ###At Level Select:
-
-<br/><br/>
 
 | Keyboard          | Function                                  |
 | ----------------- | :---------------------------------------: |
@@ -31,22 +25,14 @@ Make sure to replace the <i>Apparatus.lib</i> LFS link file in the <b>lib</b> fo
 | ESC               | Go to Main Menu                           |
 | TAB               | Switch between auto / non-auto generation |
 
-<br/><br/>
-
 ###At Generating:
-
-<br/><br/>
 
 | Keyboard          | Function                |
 | ----------------- | :---------------------: |
 | SPACEBAR          | Generate next step      |
 | ESC               | Go back to Level Select |
 
-<br/><br/>
-
 ###At Playing Game (Occurs after generation finishes)
-
-<br/><br/>
 
 | Keyboard           | Function                     |
 | ------------------ | :--------------------------: |
@@ -56,8 +42,6 @@ Make sure to replace the <i>Apparatus.lib</i> LFS link file in the <b>lib</b> fo
 | ,                  | When over item, pick up item |
 | M                  | Show entire map              |
 | CLICK IN INVENTORY | Equip / Unequip item         |
-
-<br/><br/>
 
 #Note
 
